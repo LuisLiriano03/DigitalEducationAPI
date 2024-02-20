@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualLearningAcademic.DAL\VirtualLearningAcademic.DAL.csproj" />
+    <ProjectReference Include="..\VirtualLearningAcademic.DTO\VirtualLearningAcademic.DTO.csproj" />
+    <ProjectReference Include="..\VirtualLearningAcademic.Model\VirtualLearningAcademic.Model.csproj" />
+    <ProjectReference Include="..\VirtualLearningAcademic.Utility\VirtualLearningAcademic.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

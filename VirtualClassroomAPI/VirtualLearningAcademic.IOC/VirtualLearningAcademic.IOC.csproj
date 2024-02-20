@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VirtualLearningAcademic.BLL\VirtualLearningAcademic.BLL.csproj" />
+    <ProjectReference Include="..\VirtualLearningAcademic.DAL\VirtualLearningAcademic.DAL.csproj" />
+    <ProjectReference Include="..\VirtualLearningAcademic.Utility\VirtualLearningAcademic.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
